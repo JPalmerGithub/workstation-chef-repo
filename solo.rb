@@ -1,3 +1,6 @@
-cookbook_path "#{ENV['PWD']}/cookbooks"
-role_path "#{ENV['PWD']}/roles"
-data_bag_path "#{ENV['PWD']}/data_bags"
+log_level       :debug
+log_location    STDOUT
+current_path    File.expand_path(File.join(File.dirname(__FILE__)))
+cookbook_path   "#{current_path}/cookbooks"
+role_path       "#{current_path}/roles"
+data_bag_path   "#{current_path}/data_bags"
