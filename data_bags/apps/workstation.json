@@ -29,7 +29,10 @@
     "nmap": "",
     "reattach-to-user-namespace": "",
     "tree": "",
-    "pstree": ""
+    "pstree": "",
+    "ssh-copy-id": "",
+    "siege": "",
+    "ab": ""
   },
   "dirs": [
   ]
