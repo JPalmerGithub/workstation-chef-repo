@@ -34,6 +34,11 @@
       "url": "http://files.vagrantup.com/packages/87613ec9392d4660ffcb1d5755307136c06af08c/Vagrant.dmg",
       "checksum": "b652c73c75ac1db42a28b179dac065578ea9610881a70cec3d9b43d3320440c85c35aac87df8269b9e2e9a66bb9ccf355705290f9357b6ec521b5b041844b7c2",
       "type": "pkg"
+    },
+    "Gas Mask": {
+      "volumes_dir": "Gas Mask 0.6",
+      "url": "https://gmask.googlecode.com/files/Gas%20Mask%200.6.dmg",
+      "checksum": "da4f8a067acc129d53961392969f53f7a04c1c94a54523cc94ff1128c9abc5a0dbf00e4d4f50e76cb07c54ad0bc18a7e71af53a8eb029b49c5ee2ba60fb423c9"
     }
   },
   "plists": [
