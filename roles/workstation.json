@@ -15,6 +15,11 @@
           "name": "Flux",
           "source": "https://herf.org/flux/Flux.zip",
           "checksum": "a4422a14abd17130e11f036fd1cabe2e42ad7fe0a76a6efffe33d357dad11305cc102bc6555a4a65fdcf859a7e1bc8db63bbbf673e584fd69cd9a1c3eb22a685"
+        },
+        {
+          "name": "CyberDuck",
+          "source": "https://a48823c7ec3cf4539564-60c534a1284a12ce74ef84032e9b4e46.ssl.cf1.rackcdn.com/Cyberduck-4.2.1.zip",
+          "checksum": "37265c3643e23eb4391fc015f398f20994bca888fa87d4c54010bb10c71db6581842cc9893a8ce5580842378eca27737e9f47c2a2ac73a2dfb8fcb680253644a"
         }
       ]
     },
