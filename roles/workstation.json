@@ -19,6 +19,16 @@
           "show-proces-indicators": false,
           "tilesize": "48",
           "size-immutable": true
+        },
+        "global": {
+          "domain": "NSGlobalDomain",
+          "AppleEnableMenuBarTransparency": false,
+          "AppleShowScrollBars": "Automatic",
+          "KeyRepeat": 0,
+          "NSAutomaticSpellingCorrectionEnabled": false,
+          "NSUserReplacementItemsEnabled": false,
+          "WebAutomaticSpellingCorrectionEnabled": false,
+          "WebAutomaticTextReplacementEnabled": false
         }
       }
     }
