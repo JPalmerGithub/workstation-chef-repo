@@ -2,9 +2,38 @@
   "id": "workstation",
   "dmgs": {
     // Applications installed using the dmg_package LWRP.
+    // Checksums are SHA-512
+    // "volumes_dir" is used when the mounted dmg name doesn't match name
     "Sublime Text 2": {
       "url": "http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1.dmg",
       "checksum": "2c82b9a441ad8e2cb31bec666449d304ed0b20c75835615ff10c80c2135ee26f445b1948ed039cfb156f86a3171d03e0d40a59f90450ec555cf0de5614c373aa"
+    },
+    "Wireshark": {
+      "url": "http://wiresharkdownloads.riverbed.com/wireshark/osx/Wireshark%201.8.6%20Intel%2064.dmg",
+      "checksum": "b64dd20ab8817c00875475d9e40363cdf20b80eea9b649990b33da16b118c8cec17aed0186999154ed3892bba181203caeff6de05969a7cf469d866e25263385"
+    },
+    "Adium": {
+      "volumes_dir": "Adium 1.5.6",
+      "url": "http://iweb.dl.sourceforge.net/project/adium/Adium_1.5.6.dmg",
+      "checksum": "c6d1e220eadfb7a2569ac814febc984437102001c75dd08bacd421f101cc4bebd0ff099233416bf9040147e8c0ca63bf3ee3c967cd73ad837a6fdaa9aca02370"
+    },
+    "Slate": {
+      "url": "http://slate.ninjamonkeysoftware.com/Slate.dmg",
+      "checksum": "edee5c1aced02af70a6d466567a0e4e4be700afb3ee68b66e46f04672567cd4a4bd86af750d6d2bacd7851a03cb103f99bed4e4eaecdbf1d32c64c36c9e58027"
+    },
+    "Dropbox": {
+      "volumes_dir": "Dropbox Installer",
+      "url": "https://d1ilhw0800yew8.cloudfront.net/client/Dropbox%202.0.0.dmg",
+      "checksum": "9026fd56f6ac4b7ebcf6eb9fe52069e1d769979200ff27191e667684b39e80a367ad365ade8cece322de07eaedeb9517a826c253ee3a014b2876fc52a2daeced"
+    },
+    "Google Chrome": {
+      "url": "https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg",
+      "checksum": "34f130eff998967ccbfbbd885a7c30be989b1bbc3d00517be26d4954180a16a7320b10d3875d39b70b1f23caa75139e7aacb398d2088e7157937f33a1940bf9e"
+    },
+    "Vagrant": {
+      "url": "http://files.vagrantup.com/packages/87613ec9392d4660ffcb1d5755307136c06af08c/Vagrant.dmg",
+      "checksum": "b652c73c75ac1db42a28b179dac065578ea9610881a70cec3d9b43d3320440c85c35aac87df8269b9e2e9a66bb9ccf355705290f9357b6ec521b5b041844b7c2",
+      "type": "pkg"
     }
   },
   "plists": [
