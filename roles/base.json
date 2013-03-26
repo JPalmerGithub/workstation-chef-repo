@@ -1,0 +1,25 @@
+{
+  "name": "base",
+  "json_class": "Chef::Role",
+  "default_attributes": { },
+  "override_attributes": {
+    "ruby_build": {
+    },
+    "rbenv": {
+      "install_pkgs": [],
+      "user_installs": {
+        "user": "USERNAME",
+        "rubies": [ "1.9.3-p385" ],
+        "global": "1.9.3-p385",
+        "gems": {
+          "1.9.3-p385": [
+            {"name": "bundler"},
+            {"name": "git-up"}
+          ]
+        }
+      }
+    }
+  },
+  "description": "Base role for all nodes",
+  "chef_type": "role"
+}
