@@ -1,3 +1,3 @@
-cookbook_path "./cookbooks"
-role_path "./roles"
-data_bag_path "./data_bags"
+cookbook_path "#{ENV['PWD']}/cookbooks"
+role_path "#{ENV['PWD']}/roles"
+data_bag_path "#{ENV['PWD']}/data_bags"
