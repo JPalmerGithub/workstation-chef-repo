@@ -1,5 +1,6 @@
 {
   "name": "mac_os_x",
+  "json_class": "Chef::Role",
   "default_attributes": { },
   "override_attributes": { },
   "run_list": [

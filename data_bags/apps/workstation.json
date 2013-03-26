@@ -1,6 +1,7 @@
 {
   "id": "workstation",
   "dmgs": {
+    // Applications installed using the dmg_package LWRP.
   },
   "plists": [
   ],
@@ -11,7 +12,24 @@
     "wget": "",
     "tmux": "",
     "hping": "",
-    "the_silver_searcher": ""
+    "the_silver_searcher": "",
+    "ack": "",
+    "android-ndk": "",
+    "android-sdk": "",
+    "aws-cfn-tools": "",
+    "bwm-ng": "",
+    "gawk": "",
+    "coreutils": "",
+    "gnu-sed": "",
+    "gnu-tar": "",
+    "iftop": "",
+    "iperf": "",
+    "lftp": "",
+    "mtr": "",
+    "nmap": "",
+    "reattach-to-user-namespace": "",
+    "tree": "",
+    "pstree": ""
   },
   "dirs": [
   ]
