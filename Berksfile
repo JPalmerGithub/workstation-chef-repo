@@ -1,6 +1,6 @@
 site :opscode
 
-cookbook 'rbenv'
+cookbook 'rbenv', git: 'https://github.com/fnichol/chef-rbenv'
 cookbook 'ruby_build'
 cookbook 'build-essential'
 cookbook 'homebrew'

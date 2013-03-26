@@ -5,8 +5,7 @@
   "run_list": [
     "role[mac_os_x]",
     "recipe[git]",
-    "recipe[ruby_build]",
-    "recipe[rbenv::user]",
+    "recipe[rbenv]",
     "recipe[users]",
     "recipe[workstation]",
     "recipe[mac_os_x::settings]",
