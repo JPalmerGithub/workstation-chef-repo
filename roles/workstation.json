@@ -8,8 +8,13 @@
       "apps": [
         {
           "name": "Notational Velocity",
-          "source": "file:///private/tmp/Notational_Velocity_2_0b5.zip",
+          "source": "http://cloud.github.com/downloads/scrod/nv/Notational_Velocity_2_0b5.zip",
           "checksum": "285108ec8450141779fb81458cffa7fb4629570a563fe51b7fad55e1526e4d47db0ff445b48304180c38db523a20504a041c261bd64183e0f14f170934d1a680"
+        },
+        {
+          "name": "Flux",
+          "source": "https://herf.org/flux/Flux.zip",
+          "checksum": "a4422a14abd17130e11f036fd1cabe2e42ad7fe0a76a6efffe33d357dad11305cc102bc6555a4a65fdcf859a7e1bc8db63bbbf673e584fd69cd9a1c3eb22a685"
         }
       ]
     },
