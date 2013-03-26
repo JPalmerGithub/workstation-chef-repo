@@ -1,0 +1,12 @@
+{
+  "name": "workstation",
+  "default_attributes": { },
+  "override_attributes": { },
+  "run_list": [
+    "role[base]",
+    "recipe[build-essential]",
+    "recipe[homebrew]"
+  ],
+  "description": "Role applied to all Mac OS X systems.",
+  "chef_type": "role"
+}

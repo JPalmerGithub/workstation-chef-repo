@@ -8,7 +8,7 @@
     "rbenv": {
       "install_pkgs": [],
       "user_installs": {
-        "user": "USERNAME",
+        "user": "nlopez",
         "rubies": [ "1.9.3-p385" ],
         "global": "1.9.3-p385",
         "gems": {
