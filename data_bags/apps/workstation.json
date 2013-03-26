@@ -42,7 +42,7 @@
     },
     "ShadowKiller": {
       "volumes_dir": "ShadowKiller 1.3",
-      "url": "http://www.unsanity.net/shadowkiller-13.dmg"
+      "url": "http://www.unsanity.net/shadowkiller-13.dmg",
       "checksum": "e12a393854918f98284a81e4bfc2e3b595d854359ecde60df19f02901deca809932dd6f0d2439831647a027fa21d456dfdd13f8683aa77248f43260c6c98121f"
     }
   },
