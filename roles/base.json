@@ -3,16 +3,38 @@
   "json_class": "Chef::Role",
   "default_attributes": { },
   "override_attributes": {
+    "authorization": {
+      "sudo": {
+        "groups": ["admin", "wheel"],
+        "users": "nlopez",
+        "passwordless": true
+      }
+    },
     "ruby_build": {
+      "git_ref": "v20130227",
+      "upgrade": true,
+      "install_pkgs": []
     },
     "rbenv": {
       "install_pkgs": [],
-      "user_installs": {
-        "user": "nlopez",
-        "rubies": [ "1.9.3-p385" ],
-        "global": "1.9.3-p385",
-        "gems": { }
-      }
+      "user_installs": [
+        {
+          "user": "nlopez",
+          "rubies": [ "1.9.3-p385" ],
+          "global": "1.9.3-p385",
+          "gems": {
+            "1.9.3-p385": [
+              {"name": "bundler"},
+              {"name": "chef"},
+              {"name": "knife-config"},
+              {"name": "knife-essentials"},
+              {"name": "knife-ec2"},
+              {"name": "ohai"},
+              {"name": "rpsec-core"}
+            ]
+          }
+        }
+      ]
     }
   },
   "description": "Base role for all nodes",

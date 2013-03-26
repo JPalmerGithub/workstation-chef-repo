@@ -2,7 +2,11 @@
   "name": "mac_os_x",
   "json_class": "Chef::Role",
   "default_attributes": { },
-  "override_attributes": { },
+  "override_attributes": {
+    "rbenv": {
+      "create_profiled": false
+    }
+  },
   "run_list": [
     "role[base]",
     "recipe[build-essential]",
