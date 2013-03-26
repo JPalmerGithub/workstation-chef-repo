@@ -10,7 +10,7 @@ setup() {
 @test "installs $global_ruby" {
   run rbenv versions --bare
   [ $status -eq 0 ]
-  [ $(echo "$output" | grep "^$global_ruby$") = "$global_ruby" ]
+  [ $output = "$global_ruby" ]
 }
 
 @test "sets $global_ruby as the global Ruby" {
