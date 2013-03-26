@@ -20,11 +20,10 @@
       "user_installs": [
         {
           "user": "nlopez",
-          "rubies": [ "1.9.3-p385" ],
-          "global": "1.9.3-p385",
+          "rubies": [ "1.9.3-p392", "2.0.0-p0" ],
+          "global": "1.9.3-p392",
           "gems": {
-            "1.9.3-p385": [
-              { "name": "bundler" }
+            "1.9.3-p392": [
             ]
           }
         }
