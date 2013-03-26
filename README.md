@@ -1,5 +1,4 @@
 Basic usage
 
-    berks install --path cookbooks
-    test
+    sudo chef-solo -c ./solo.rb -j ./roles/workstation.json
   
