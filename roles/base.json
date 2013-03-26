@@ -24,13 +24,7 @@
           "global": "1.9.3-p385",
           "gems": {
             "1.9.3-p385": [
-              {"name": "bundler"},
-              {"name": "chef"},
-              {"name": "knife-config"},
-              {"name": "knife-essentials"},
-              {"name": "knife-ec2"},
-              {"name": "ohai"},
-              {"name": "rpsec-core"}
+              { "name": "bundler" }
             ]
           }
         }
