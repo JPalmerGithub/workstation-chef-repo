@@ -32,7 +32,8 @@
     "pstree": "",
     "ssh-copy-id": "",
     "siege": "",
-    "ab": ""
+    "ab": "",
+    "md5sha1sum": ""
   },
   "dirs": [
   ]
