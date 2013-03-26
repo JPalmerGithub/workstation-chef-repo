@@ -4,6 +4,15 @@
     "iterm2": {
       "version": "v1_0_0"
     },
+    "zip_apps": {
+      "apps": [
+        {
+          "name": "Notational Velocity",
+          "source": "file:///private/tmp/Notational_Velocity_2_0b5.zip",
+          "checksum": "285108ec8450141779fb81458cffa7fb4629570a563fe51b7fad55e1526e4d47db0ff445b48304180c38db523a20504a041c261bd64183e0f14f170934d1a680"
+        }
+      ]
+    },
     "mac_os_x": {
       "settings": {
         "dock": {
