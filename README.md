@@ -4,6 +4,6 @@ Basic usage
 
 Where to add new things
 
-1. `data_bags/workstation.json`: packages (dmg), Homebrew packages, plists, dirs
+1. `data_bags/workstation.json`: packages (dmg), zip apps, Homebrew packages, plists, dirs
 2. `roles/base.json`: rubies and gems
-3. `roles/workstation.json`: `defaults write` settings, zip apps
+3. `roles/workstation.json`: `defaults write` settings

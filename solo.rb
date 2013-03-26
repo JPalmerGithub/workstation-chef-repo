@@ -1,4 +1,4 @@
-log_level         :debug
+log_level         :info
 log_location      STDOUT
 current_path      File.expand_path(File.join(File.dirname(__FILE__)))
 cookbook_path     "#{current_path}/cookbooks"

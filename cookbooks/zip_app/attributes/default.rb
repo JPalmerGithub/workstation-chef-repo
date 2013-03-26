@@ -19,4 +19,4 @@
 
 default['zip_app']['apps']      = []
 
-default['zip_app']['data_bag']  = ['apps', node['platform']]
+default['zip_app']['data_bag']  = ['apps', 'workstation']
