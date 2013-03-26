@@ -2,6 +2,10 @@
   "id": "workstation",
   "dmgs": {
     // Applications installed using the dmg_package LWRP.
+    "Sublime Text 2": {
+      "url": "http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1.dmg",
+      "checksum": "2c82b9a441ad8e2cb31bec666449d304ed0b20c75835615ff10c80c2135ee26f445b1948ed039cfb156f86a3171d03e0d40a59f90450ec555cf0de5614c373aa"
+    }
   },
   "plists": [
   ],

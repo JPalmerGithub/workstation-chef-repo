@@ -1,6 +1,9 @@
 {
   "name": "workstation",
   "default_attributes": {
+    "iterm2": {
+      "version": "v1_0_0"
+    },
     "mac_os_x": {
       "settings": {
         "dock": {
@@ -42,7 +45,12 @@
     "recipe[users]",
     "recipe[workstation]",
     "recipe[mac_os_x::settings]",
-    "recipe[mac_os_x::firewall]"
+    "recipe[mac_os_x::firewall]",
+    // Additional applications that have their own cookbooks
+    "recipe[iterm2]",
+    "recipe[virtualbox]",
+    "recipe[1password]",
+    "recipe[xquartz]"
   ],
   "description": "Role applied to all Mac OS X systems.",
   "chef_type": "role"
