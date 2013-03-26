@@ -4,7 +4,13 @@
   "override_attributes": { },
   "run_list": [
     "role[mac_os_x]",
-    "recipe[workstation]"
+    "recipe[git]",
+    "recipe[ruby_build]",
+    "recipe[rbenv::user]",
+    "recipe[users]",
+    "recipe[workstation]",
+    "recipe[mac_os_x::settings]",
+    "recipe[mac_os_x::firewall]"
   ],
   "description": "Role applied to all Mac OS X systems.",
   "chef_type": "role"
