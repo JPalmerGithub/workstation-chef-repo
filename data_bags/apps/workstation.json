@@ -1,0 +1,18 @@
+{
+  "id": "workstation",
+  "dmgs": {
+  },
+  "plists": [
+  ],
+  "packages": {
+  },
+  "brew_packages": {
+    "tcpdump": "",
+    "wget": "",
+    "tmux": "",
+    "hping": "",
+    "the_silver_searcher": ""
+  },
+  "dirs": [
+  ]
+}
