@@ -10,7 +10,10 @@
     },
     "Wireshark": {
       "url": "http://wiresharkdownloads.riverbed.com/wireshark/osx/Wireshark%201.8.6%20Intel%2064.dmg",
-      "checksum": "b64dd20ab8817c00875475d9e40363cdf20b80eea9b649990b33da16b118c8cec17aed0186999154ed3892bba181203caeff6de05969a7cf469d866e25263385"
+      "checksum": "b64dd20ab8817c00875475d9e40363cdf20b80eea9b649990b33da16b118c8cec17aed0186999154ed3892bba181203caeff6de05969a7cf469d866e25263385",
+      "type": "pkg",
+      "volumes_dir": "Wireshark",
+      "app": "Wireshark 1.8.6 Intel 64"
     },
     "Adium": {
       "volumes_dir": "Adium 1.5.6",
@@ -29,11 +32,6 @@
     "Google Chrome": {
       "url": "https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg",
       "checksum": "34f130eff998967ccbfbbd885a7c30be989b1bbc3d00517be26d4954180a16a7320b10d3875d39b70b1f23caa75139e7aacb398d2088e7157937f33a1940bf9e"
-    },
-    "Vagrant": {
-      "url": "http://files.vagrantup.com/packages/87613ec9392d4660ffcb1d5755307136c06af08c/Vagrant.dmg",
-      "checksum": "b652c73c75ac1db42a28b179dac065578ea9610881a70cec3d9b43d3320440c85c35aac87df8269b9e2e9a66bb9ccf355705290f9357b6ec521b5b041844b7c2",
-      "type": "pkg"
     },
     "Gas Mask": {
       "volumes_dir": "Gas Mask 0.6",

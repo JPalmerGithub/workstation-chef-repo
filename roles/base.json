@@ -20,10 +20,17 @@
       "user_installs": [
         {
           "user": "nlopez",
-          "rubies": [ "1.9.3-p392", "2.0.0-p0" ],
+          "rubies": [ "1.9.3-p392" ],
           "global": "1.9.3-p392",
           "gems": {
             "1.9.3-p392": [
+              {"name": "chef"},
+              {"name": "knife-spork"},
+              {"name": "knife-block"},
+              {"name": "knife-ec2"},
+              {"name": "knife-whisk"},
+              {"name": "knife-config"},
+              {"name": "bundler"}
             ]
           }
         }
