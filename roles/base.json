@@ -30,7 +30,8 @@
               {"name": "knife-ec2"},
               {"name": "knife-whisk"},
               {"name": "knife-config"},
-              {"name": "bundler"}
+              {"name": "bundler"},
+              {"name": "berkshelf"}
             ]
           }
         }
