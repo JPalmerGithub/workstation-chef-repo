@@ -6,7 +6,7 @@
     "authorization": {
       "sudo": {
         "groups": ["admin", "wheel"],
-        "users": "nlopez",
+        "users": "vagrant",
         "passwordless": true
       }
     },
@@ -19,7 +19,7 @@
       "install_pkgs": [],
       "user_installs": [
         {
-          "user": "nlopez",
+          "user": "vagrant",
           "rubies": [ "1.9.3-p392" ],
           "global": "1.9.3-p392",
           "gems": {
