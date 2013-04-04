@@ -26,7 +26,8 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 EOF
 ) >> ~/.profile
 source ~/.profile
-rbenv install 1.9.3-p392
+# this is typically the most time consuming step
+rbenv install -v 1.9.3-p392
 # ensure our bootstrap script is using our new ruby
 rbenv global 1.9.3-p392
 ruby --version # sanity check
