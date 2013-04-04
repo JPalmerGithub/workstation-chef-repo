@@ -4,8 +4,12 @@ readonly url_xcode_cltools="http://goo.gl/7pXDw"
 # install homebrew
 if ! hash brew 2>/dev/null; then ruby -e "$(curl -fsSL $url_homebrew)"; fi
 # install os x command line tools dmg
-curl -L -O "$url_xcode_cltools"
-sudo installer -package "$(hdiutil attach -nobrowse xcode*_cltools_*.dmg | sed -n 's/^.*\(\/Volumes.*\)$/\1/p')/Command Line Tools (Mountain Lion).mpkg" -target /
+if [ ! $(pkgutil --pkgs="com.apple.pkg.DeveloperToolsCLI") ]; then
+  curl -L "$url_xcode_cltools" > cltools.dmg
+  volume="$(hdiutil attach -nobrowse cltools.dmg | sed -n 's/^.*\(\/Volumes.*\)$/\1/p')"
+  sudo installer -package "$volume/Command Line Tools (Mountain Lion).mpkg" -target /
+  hdiutil detach "$volume"
+fi
 # verify homebrew is good to go
 brew doctor
 brew tap homebrew/dupes # optional
