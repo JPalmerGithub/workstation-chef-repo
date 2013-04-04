@@ -19,6 +19,7 @@
       "install_pkgs": []
     },
     "rbenv": {
+      "root_path": "/usr/local/var/rbenv",
       "install_pkgs": [],
       "user_installs": [
         {
