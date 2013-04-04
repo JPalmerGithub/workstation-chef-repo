@@ -9,6 +9,7 @@ if [ ! $(pkgutil --pkgs="com.apple.pkg.DeveloperToolsCLI") ]; then
   hdiutil detach "$volume"
 fi
 # install homebrew
+# TODO: use our own homebrew go script without the interactive bits
 if ! hash brew 2>/dev/null; then ruby -e "$(curl -fsSL $url_homebrew_go)"; fi
 # make sure /usr/local is owned by us
 sudo chown -R `whoami`:staff /usr/local
