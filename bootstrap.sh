@@ -10,6 +10,8 @@ if [ ! $(pkgutil --pkgs="com.apple.pkg.DeveloperToolsCLI") ]; then
 fi
 # install homebrew
 if ! hash brew 2>/dev/null; then ruby -e "$(curl -fsSL $url_homebrew_go)"; fi
+# make sure /usr/local is owned by us
+sudo chown -R `whoami`:staff /usr/local
 # verify homebrew is good to go
 brew doctor
 brew tap homebrew/dupes # optional
@@ -29,5 +31,6 @@ rbenv global 1.9.3-p392
 ruby --version # sanity check
 # install chef and make it available to our script
 gem install chef --no-rdoc --no-ri
+rbenv rehash # makes newly installed gem shims available
 # you're now ready to run chef-solo!
 chef-solo -c ./solo.rb -j ./roles/workstation.json
