@@ -47,6 +47,7 @@
     "recipe[mac_os_x::firewall]",
     "recipe[zip_app::data_bag]",
     // Additional applications that have their own cookbooks
+    "recipe[oh-my-zsh-solo]",
     "recipe[iterm2]",
     "recipe[virtualbox]",
     "recipe[1password]",

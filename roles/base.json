@@ -3,6 +3,9 @@
   "json_class": "Chef::Role",
   "default_attributes": { },
   "override_attributes": {
+    "oh_my_zsh": {
+      "users": "vagrant"
+    },
     "authorization": {
       "sudo": {
         "groups": ["admin", "wheel"],

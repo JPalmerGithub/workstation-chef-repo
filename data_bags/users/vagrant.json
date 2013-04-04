@@ -1,3 +1,4 @@
 {
-  "id": "vagrant"
+  "id": "vagrant",
+  "shell": "\/bin\/zsh"
 }
