@@ -1,6 +1,8 @@
 {
   "name": "workstation",
   "default_attributes": {
+  },
+  "override_attributes": {
     "iterm2": {
       "version": "v1_0_0"
     },
@@ -59,7 +61,6 @@
       }
     }
   },
-  "override_attributes": { },
   "run_list": [
     "recipe[git]",
     "recipe[ruby_build]",
