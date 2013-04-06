@@ -21,7 +21,8 @@ run_list(
 )
 default_attributes(
   'iterm2' => {
-    'version' => 'v1_0_0'
+    'version' => '-1_0_0_20130319',
+    'checksum' => '9c21d6355bca361af18621f0cdac45babaefd4e73adb4ee09c36e3eaeb1e3f1e',
   }
 )
 
