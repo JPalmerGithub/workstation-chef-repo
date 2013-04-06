@@ -3,7 +3,7 @@ This repo contains Chef cookbooks, data bags, and roles suitable for configuring
 
 ### Basic usage
 
-    chef-solo -c ./solo.rb -o 'role[workstation]'
+    ./go
 
 ### Where to add new things
 
