@@ -25,6 +25,10 @@ execute "killall Dock" do
   action :nothing
 end
 
+execute "killall SystemUIServer" do
+  action :nothing
+end
+
 node['mac_os_x']['settings'].each do |domain,settings|
   settings.each do |k,v|
     next if k == 'domain'
@@ -36,6 +40,7 @@ node['mac_os_x']['settings'].each do |domain,settings|
       sudo true if settings['domain'] =~ /^\/Library\/Preferences/
       global true if settings['domain'] =~ /^NSGlobalDomain$/
       notifies :run, "execute[killall Dock]" if settings['domain'] =~ /^com.apple.dock$/
+      notifies :run, "execute[killall SystemUIServer]" if global
     end
   end
 end

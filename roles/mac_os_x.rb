@@ -35,6 +35,8 @@ default_attributes(
       },
       'global' => {
         'domain' => 'NSGlobalDomain',
+        'AppleAquaColorVariant' => 6,
+        'AppleHighlightColor' => '0.882772 0.869566 0.660917',
         'AppleEnableMenuBarTransparency' => false,
         'AppleShowScrollBars' => 'Automatic',
         'KeyRepeat' => 0,
@@ -62,7 +64,14 @@ default_attributes(
         '_FXShowPosixPathInTitle' => true,
         'FXDefaultSearchScope' => 'SCcf',
         'FXEnableExtensionChangeWarning' => false,
-        'FXPreferredViewStyle' => 'Nlsv'
+        'FXPreferredViewStyle' => 'Nlsv',
+        'AppleShowAllExtensions' => true
+      },
+      'clock' => {
+        'domain' => 'com.apple.menuextra.clock',
+        'DateFormat' => 'HH:mm:ss',
+        'FlashDateSeparators' => false,
+        'IsAnalog' => false
       }
     }
   }
