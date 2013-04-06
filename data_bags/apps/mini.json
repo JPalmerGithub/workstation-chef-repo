@@ -1,0 +1,28 @@
+{
+  "id": "mini",
+  "dmgs": {
+    // Applications installed using the dmg_package LWRP.
+    // Checksums are SHA-512
+    // "volumes_dir" is used when the mounted dmg name doesn't match name
+    "Plex Media Server": {
+      "volumes_dir": "PlexMediaServer",
+      "url": "http://plex.r.worldssl.net/PlexMediaServer/0.9.7.22.511-4b5280f/PlexMediaServer-0.9.7.22.511-4b5280f-OSX.dmg",
+      "checksum": "1b602fe05060824bd41253bd668d0b30ac0c7b7016e904eaa4072668d75aef0181232f5b2a8a98bf25bc9dca27fa732339756e2a8f2d2547caf13e2a7cf20fde"
+    },
+    "Transmission": {
+      "url": "http://transmission.cachefly.net/Transmission-2.77.dmg",
+      "checksum": "b71323fd730636bd7275e6aaec4eebbf427a6516ba75931f8239befb70f8b86975a7add547ca8efbee5848ccb8904f74d0ed6b8b01e942a3eb68ce1da631f1d0"
+    }
+  },
+  "zip_apps": [
+  ],
+  "plists": [
+  ],
+  "packages": {
+  },
+  "brew_packages": {
+    "sickbeard": ""
+  },
+  "dirs": [
+  ]
+}
