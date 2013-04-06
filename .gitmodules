@@ -1,0 +1,6 @@
+[submodule "cookbooks/wireshark"]
+	path = cookbooks/wireshark
+	url = git://github.com/thalweg/chef-wireshark.git
+[submodule "cookbooks/vagrant"]
+	path = cookbooks/vagrant
+	url = git://github.com/thalweg/chef-vagrant.git
