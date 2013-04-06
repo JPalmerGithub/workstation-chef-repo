@@ -19,7 +19,7 @@ run_list(
   # Roles
   'role[mac_os_x]'
 )
-override_attributes(
+default_attributes(
   'iterm2' => {
     'version' => 'v1_0_0'
   }
