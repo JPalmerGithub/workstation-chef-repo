@@ -1,11 +1,6 @@
 {
   "name": "workstation",
   "default_attributes": {
-  },
-  "override_attributes": {
-    "iterm2": {
-      "version": "v1_0_0"
-    },
     "mac_os_x": {
       "settings": {
         "dock": {
@@ -59,6 +54,11 @@
           "FXPreferredViewStyle": "Nlsv"
         }
       }
+  },
+  "override_attributes": {
+      "iterm2": {
+        "version": "v1_0_0"
+      }
     }
   },
   "run_list": [
@@ -76,6 +76,7 @@
     "recipe[virtualbox]",
     "recipe[1password]",
     "recipe[xquartz]",
+    "recipe[wireshark]",
     // Roles
     "role[mac_os_x]"
   ],

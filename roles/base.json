@@ -4,12 +4,12 @@
   "default_attributes": { },
   "override_attributes": {
     "oh_my_zsh": {
-      "users": "vagrant"
+      "users": "nlopez"
     },
     "authorization": {
       "sudo": {
         "groups": ["admin", "wheel"],
-        "users": "vagrant",
+        "users": "nlopez",
         "passwordless": true
       }
     },
@@ -23,7 +23,7 @@
       "install_pkgs": [],
       "user_installs": [
         {
-          "user": "vagrant",
+          "user": "nlopez",
           "rubies": [ "1.9.3-p392" ],
           "global": "1.9.3-p392",
           "gems": {

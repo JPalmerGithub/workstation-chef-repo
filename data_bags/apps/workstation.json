@@ -8,13 +8,6 @@
       "url": "http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1.dmg",
       "checksum": "2c82b9a441ad8e2cb31bec666449d304ed0b20c75835615ff10c80c2135ee26f445b1948ed039cfb156f86a3171d03e0d40a59f90450ec555cf0de5614c373aa"
     },
-    "Wireshark": {
-      "url": "http://wiresharkdownloads.riverbed.com/wireshark/osx/Wireshark%201.8.6%20Intel%2064.dmg",
-      "checksum": "b64dd20ab8817c00875475d9e40363cdf20b80eea9b649990b33da16b118c8cec17aed0186999154ed3892bba181203caeff6de05969a7cf469d866e25263385",
-      "type": "pkg",
-      "volumes_dir": "Wireshark",
-      "app": "Wireshark 1.8.6 Intel 64"
-    },
     "Adium": {
       "volumes_dir": "Adium 1.5.6",
       "url": "http://iweb.dl.sourceforge.net/project/adium/Adium_1.5.6.dmg",
