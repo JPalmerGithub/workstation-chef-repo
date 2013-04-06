@@ -16,6 +16,7 @@ run_list(
   'recipe[1password]',
   'recipe[xquartz]',
   'recipe[wireshark]',
+  'recipe[vagrant]',
   # Roles
   'role[mac_os_x]'
 )

@@ -5,6 +5,10 @@ run_list(
   'recipe[homebrew]'
 )
 default_attributes(
+  'virtualbox' => {
+    'urlbase' => 'http://download.virtualbox.org/virtualbox/4.2.10',
+    'version' => 'VirtualBox-4.2.10-84104'
+  },
   'rbenv' => {
     'create_profiled' => false
   },
