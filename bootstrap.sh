@@ -33,6 +33,4 @@ rbenv global 1.9.3-p392
 ruby --version # sanity check
 # install chef and make it available to our script
 gem install chef --no-rdoc --no-ri
-rbenv rehash # makes newly installed gem shims available
 # you're now ready to run chef-solo!
-chef-solo -c ./solo.rb -j ./roles/workstation.json
