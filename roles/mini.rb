@@ -4,7 +4,6 @@ run_list(
   'recipe[workstation::mini]',
   'recipe[mac_os_x::settings]',
   'recipe[mac_os_x::firewall]',
-  'recipe[zip_app::data_bag]',
   'recipe[oh-my-zsh-solo]',
   # Roles
   'role[mac_os_x]'
