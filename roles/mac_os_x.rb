@@ -49,7 +49,8 @@ default_attributes(
         'NSQuitAlwaysKeepsWindows' => false,
         'NSDisableAutomaticTermination' => true,
         'com.apple.swipescrolldirection' => false,
-        'AppleShowAllExtensions' => true
+        'AppleShowAllExtensions' => true,
+        'AppleMiniaturizeOnDoubleClick' => true
       },
       'screensaver' => {
         'domain' => 'com.apple.screensaver',
