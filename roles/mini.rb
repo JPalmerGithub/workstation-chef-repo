@@ -6,6 +6,7 @@ run_list(
   'recipe[mac_os_x::firewall]',
   'recipe[zip_app::data_bag]',
   'recipe[oh-my-zsh-solo]',
+  'recipe[sickbeard]',
   # Roles
   'role[mac_os_x]'
 )
