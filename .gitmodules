@@ -7,6 +7,3 @@
 [submodule "cookbooks/sickbeard"]
 	path = cookbooks/sickbeard
 	url = git://github.com/thalweg/chef-sickbeard.git
-[submodule "homebrew"]
-	path = homebrew
-	url = https://github.com/opscode-cookbooks/homebrew.git
