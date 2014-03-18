@@ -79,12 +79,5 @@
   "override_attributes": {
   },
   "run_list": [
-    "recipe[git]",
-    "recipe[users]",
-    "recipe[workstation]",
-    "recipe[mac_os_x::settings]",
-    "recipe[mac_os_x::firewall]",
-    "recipe[zip_app::data_bag]",
-    "role[mac_os_x]"
   ]
 }
