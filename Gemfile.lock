@@ -48,6 +48,7 @@ GEM
     net-ssh-multi (1.2.0)
       net-ssh (>= 2.6.5)
       net-ssh-gateway (>= 1.2.0)
+    nyan-cat-chef-formatter (0.1.0)
     ohai (6.20.0)
       ipaddress
       mixlib-cli
@@ -74,3 +75,4 @@ PLATFORMS
 
 DEPENDENCIES
   chef
+  nyan-cat-chef-formatter

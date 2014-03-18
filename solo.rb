@@ -1,3 +1,6 @@
+gem 'nyan-cat-chef-formatter'
+require 'nyan-cat-chef-formatter'
+
 log_level         :info
 log_location      STDOUT
 current_path      File.expand_path(File.join(File.dirname(__FILE__)))
