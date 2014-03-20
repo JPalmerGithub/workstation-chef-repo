@@ -31,6 +31,9 @@ if use_brew?
       options o if o && o.length > 0
     end
   end
+  wk['brew_taps'].each do |tap|
+    homebrew_tap tap
+  end
 else
   wk['packages'].each do |p,o|
     package p do
