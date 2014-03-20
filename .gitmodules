@@ -1,12 +1,3 @@
-[submodule "cookbooks/wireshark"]
-	path = cookbooks/wireshark
-	url = git://github.com/thalweg/chef-wireshark.git
-[submodule "cookbooks/vagrant"]
-	path = cookbooks/vagrant
-	url = git://github.com/thalweg/chef-vagrant.git
-[submodule "cookbooks/sickbeard"]
-	path = cookbooks/sickbeard
-	url = git://github.com/thalweg/chef-sickbeard.git
 [submodule "cookbooks/homebrew"]
 	path = cookbooks/homebrew
 	url = https://github.com/opscode-cookbooks/homebrew.git
