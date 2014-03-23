@@ -34,6 +34,11 @@ if use_brew?
   wk['brew_taps'].each do |tap|
     homebrew_tap tap
   end
+  wk['brew_casks'].each do |cask|
+    homebrew_cask cask do
+      action :cask
+    end
+  end
 else
   wk['packages'].each do |p,o|
     package p do
