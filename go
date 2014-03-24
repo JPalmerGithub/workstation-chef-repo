@@ -3,10 +3,8 @@
 # we get started
 readonly CHEF="/opt/chef/bin/chef-client"
 if [ ! -x "$CHEF" ]; then
-  echo "Can't execute "$CHEF"" >&2
-  echo "Install Chef using the Omnibus Installer" >&2
-  echo "http://docs.opscode.com/install_omnibus.html" >&2
-  exit 1
+  echo "Can't find Chef at $CHEF, running the Omnibus Installer" >&2
+  \curl -sSL https://www.opscode.com/chef/install.sh | sudo bash
 fi
 
 # Make sure we're using system Ruby and not something overriden by rvm or
