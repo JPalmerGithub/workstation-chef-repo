@@ -99,7 +99,8 @@
     "google-drive",
     "omnidisksweeper",
     "plex-home-theater",
-    "xca"
+    "xca",
+    "bonjour-browser"
   ],
   "dirs": [
   ]
