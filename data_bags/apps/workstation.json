@@ -100,7 +100,8 @@
     "omnidisksweeper",
     "plex-home-theater",
     "xca",
-    "bonjour-browser"
+    "bonjour-browser",
+    "firefox-nightly"
   ],
   "dirs": [
   ]
