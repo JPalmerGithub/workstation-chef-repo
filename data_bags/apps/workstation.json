@@ -45,7 +45,6 @@
   "brew_casks": [
     "adium",
     "alfred",
-    "amethyst",
     "arq",
     "bettertouchtool",
     "bittorrent-sync",
@@ -64,7 +63,6 @@
     "notational-velocity",
     "onepassword",
     "osxfuse",
-    "paintbrush",
     "parallels",
     "pckeyboardhack",
     "quassel-client",
@@ -91,17 +89,17 @@
     "istumbler",
     "libreoffice",
     "querious",
-    "virtualbox",
     "vagrant",
     "keyremap4macbook",
     "paintbrush",
-    "mplayerx",
     "pacifist",
     "namebench",
     "kismac",
     "cord",
     "google-drive",
-    "omnidisksweeper"
+    "omnidisksweeper",
+    "plex-home-theater",
+    "xca"
   ],
   "dirs": [
   ]
