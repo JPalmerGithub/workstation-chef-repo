@@ -10,6 +10,7 @@
   "run_list": [
     "recipe[git]",
     "recipe[users]",
+    "recipe[build-essential]",
     "recipe[workstation]",
     "recipe[mac_os_x::settings]",
     "recipe[mac_os_x::firewall]",
