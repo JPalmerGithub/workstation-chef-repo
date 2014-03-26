@@ -31,7 +31,8 @@
     "tree": "",
     "pstree": "",
     "ssh-copy-id": "",
-    "md5sha1sum": ""
+    "md5sha1sum": "",
+    "valgrind": ""
   },
   "brew_taps": [
     "homebrew/binary",
