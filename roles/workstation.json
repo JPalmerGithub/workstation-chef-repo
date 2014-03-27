@@ -11,6 +11,7 @@
     "recipe[git]",
     "recipe[users]",
     "recipe[build-essential]",
+    "recipe[homebrew]",
     "recipe[workstation]",
     "recipe[mac_os_x::settings]",
     "recipe[mac_os_x::firewall]",
