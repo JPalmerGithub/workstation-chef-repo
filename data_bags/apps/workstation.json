@@ -32,7 +32,10 @@
     "pstree": "",
     "ssh-copy-id": "",
     "md5sha1sum": "",
-    "valgrind": ""
+    "valgrind": "",
+    "openssh": "",
+    "nodejs": "",
+    "npm": ""
   },
   "brew_taps": [
     "homebrew/binary",
