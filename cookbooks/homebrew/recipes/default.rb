@@ -16,3 +16,8 @@ end
 execute "update homebrew from github" do
   command "/usr/local/bin/brew update || true"
 end
+
+execute "update homebrew casks" do
+	command "/usr/local/bin/brew cask update || true"
+	only_if "/usr/local/bin/brew tap | egrep -q '^phinze/cask$'"
+end
