@@ -35,7 +35,8 @@
     "valgrind": "",
     "openssh": "",
     "nodejs": "",
-    "npm": ""
+    "npm": "",
+    "android-sdk": ""
   },
   "brew_taps": [
     "homebrew/binary",
