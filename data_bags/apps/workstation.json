@@ -36,7 +36,8 @@
     "openssh": "",
     "nodejs": "",
     "npm": "",
-    "android-sdk": ""
+    "android-sdk": "",
+    "hping": ""
   },
   "brew_taps": [
     "homebrew/binary",
@@ -92,7 +93,6 @@
     "cyberduck",
     "diskmaker-x",
     "istumbler",
-    "libreoffice",
     "querious",
     "vagrant",
     "keyremap4macbook",
@@ -106,7 +106,8 @@
     "plex-home-theater",
     "xca",
     "bonjour-browser",
-    "firefox-nightly"
+    "firefox-nightly",
+    "owasp-zap"
   ],
   "dirs": [
   ]
